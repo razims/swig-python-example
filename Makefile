@@ -11,3 +11,6 @@ clean:
 	rm ./*.o &
 	rm ./example.py &
 	rm ./*_wrap.*
+
+cython:
+	python compile.py build_ext --inplace
